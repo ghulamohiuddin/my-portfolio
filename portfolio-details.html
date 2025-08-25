@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Ghulam Mohiuddin</title>
+  <meta content="Portfolio details of Ghulam Mohiuddin" name="description">
+  <meta content="portfolio, details, projects, ghulam mohiuddin" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;600;700&family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="Profile" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Ghulam Mohiuddin</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/ghulam-mohiuddin-6aa283330" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://github.com/your-github" target="_blank" class="github"><i class="bi bi-github"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html#hero"><i class="bi bi-house navicon"></i> Home</a></li>
+        <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="index.html#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="index.html#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <!-- Slider -->
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center" id="project-images">
+                <!-- Dynamic images will be inserted here -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <!-- Info -->
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project Information</h3>
+              <ul id="project-info">
+                <!-- Dynamic project info -->
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2 id="project-title">Loading...</h2>
+              <p id="project-description">Please wait while project details load.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Ghulam Mohiuddin</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Custom Script to Load Project Details -->
+  <script>
+    const projects = {
+      card: {
+        title: "Digital Business Card",
+        description: "An interactive digital business card with QR code support and modern responsive design.",
+        images: [
+          "assets/img/portfolio/app-1.jpg",
+        ],
+        info: `
+          <li><strong>Category</strong>: Personal Branding</li>
+          <li><strong>Client</strong>: Self</li>
+          <li><strong>Project Date</strong>: 2025</li>
+          <li><strong>Project URL</strong>: <a href="#">https://yourcard.com</a></li>
+        `
+      },
+      website: {
+        title: "Personal Portfolio Website",
+        description: "My official personal portfolio website showcasing my work, resume, and contact information.",
+        images: [
+          "assets/img/portfolio/app-2.jpg",
+        ],
+        info: `
+          <li><strong>Category</strong>: Website Development</li>
+          <li><strong>Client</strong>: Self</li>
+          <li><strong>Project Date</strong>: 2025</li>
+          <li><strong>Project URL</strong>: <a href="#">https://yourwebsite.com</a></li>
+        `
+      },
+      bag: {
+        title: "Crochet Bag Design",
+        description: "A handmade crochet bag designed for style and utility, used as a brand showcase project.",
+        images: [
+          "assets/img/portfolio/branding-1.jpg",
+          "assets/img/portfolio/branding-3.jpg"
+        ],
+        info: `
+          <li><strong>Category</strong>: Product / Brand</li>
+          <li><strong>Client</strong>: Local Brand</li>
+          <li><strong>Project Date</strong>: 2025</li>
+          <li><strong>Project URL</strong>: <a href="#">https://brandbag.com</a></li>
+        `
+      },
+      bottle: {
+        title: "Joous Bottle Branding",
+        description: "A refreshing drink branding project including bottle packaging and label design.",
+        images: [
+          "assets/img/portfolio/branding-2.jpg",
+          "assets/img/portfolio/branding-4.jpg"
+        ],
+        info: `
+          <li><strong>Category</strong>: Packaging & Branding</li>
+          <li><strong>Client</strong>: Joous Drinks</li>
+          <li><strong>Project Date</strong>: 2025</li>
+          <li><strong>Project URL</strong>: <a href="#">https://joous.com</a></li>
+        `
+      }
+    };
+
+    // Get project from URL query
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectKey = urlParams.get("project");
+
+    if (projectKey && projects[projectKey]) {
+      const project = projects[projectKey];
+
+      document.getElementById("project-title").textContent = project.title;
+      document.getElementById("project-description").textContent = project.description;
+      document.getElementById("project-info").innerHTML = project.info;
+
+      const imagesContainer = document.getElementById("project-images");
+      project.images.forEach(img => {
+        const slide = document.createElement("div");
+        slide.className = "swiper-slide";
+        slide.innerHTML = `<img src="${img}" alt="">`;
+        imagesContainer.appendChild(slide);
+      });
+
+      new Swiper('.portfolio-details-slider', {
+        speed: 600,
+        loop: true,
+        autoplay: { delay: 5000 },
+        pagination: { el: '.swiper-pagination', clickable: true }
+      });
+    } else {
+      document.getElementById("project-title").textContent = "Project Not Found";
+      document.getElementById("project-description").textContent = "The project you selected is not available.";
+    }
+  </script>
+
+</body>
+</html>
