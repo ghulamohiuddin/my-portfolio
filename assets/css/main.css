@@ -579,7 +579,7 @@ section,
 }
 
 .hero h2 {
-  font-size: 48px; /* Original size is 64px. Adjust this value as you like. */
+  font-size: 42px; /* Original size is 64px. Adjust this value as you like. */
   margin: 0px 0px 10px 0px; /* Adds a little space below your name */
   font-weight: 700;
 }
